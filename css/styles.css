@@ -104,3 +104,25 @@ footer ul li a {
   color: white;
   text-decoration: none;
 }
+
+/* Mobile-first design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.5em;
+  }
+
+  .cta-button {
+    font-size: 1.2em;
+  }
+}
+
